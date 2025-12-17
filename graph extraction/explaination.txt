@@ -1,0 +1,145 @@
+=============================================================================
+DOCUMENTATION: Dental Graph Construction Logic & Neo4j Schema
+=============================================================================
+Project: Dental Panoramic Radiograph Knowledge Graph
+Date: December 17, 2025
+Author: Gemini & User Collaboration
+
+-----------------------------------------------------------------------------
+PART 1: ADVANCED GRAPH CONSTRUCTION LOGIC
+-----------------------------------------------------------------------------
+The graph construction algorithm converts raw YOLO bounding box (polygon) 
+detections into a semantic graph. It moves beyond simple Euclidean distance 
+to incorporate clinical dental rules.
+
+1. Node Identification Strategy (Handling Duplicates)
+   - Problem: A patient may have multiple teeth with the same FDI number 
+     (e.g., a retained primary tooth #75 and an erupting permanent tooth #35, 
+     or supernumerary teeth).
+   - Solution: We DO NOT use the FDI number as the unique Node ID.
+   - Implementation: 
+     * Unique ID: "tooth_{index}" (e.g., tooth_0, tooth_1) based on detection order.
+     * FDI Number: Stored as a property (`fdi`) within the node.
+     This allows multiple nodes to share the same FDI number without overwriting.
+
+2. Horizontal Connection Logic (The "Smart Connect" Algorithm)
+   Nodes are sorted by their X-coordinate (Left to Right). The algorithm evaluates 
+   adjacent pairs (Current Node vs. Next Node) and assigns one of two relationships:
+   A. [:IS_ADJACENT_TO] (Green Edge) - Normal contact.
+   B. [:HAS_GAP_WITH]   (Red Edge)   - Missing tooth or space.
+
+   The decision tree uses the following priority rules:
+
+   Rule A: Vertical Dominance (The "Crowding" Exception)
+   - Context: Teeth are often crowded or erupting, causing them to stack vertically.
+   - Logic: Calculate delta_x and delta_y.
+   - Condition: If (dy > dx)
+   - Result: Force [:IS_ADJACENT_TO].
+   - Reasoning: If teeth overlap significantly in the Y-axis, they are physically 
+     touching/crowding, regardless of the center-point distance.
+
+   Rule B: Mixed Dentition Handling (Primary vs. Permanent)
+   - Context: Primary teeth are smaller than permanent teeth. Standard distance 
+     thresholds often falsely flag gaps between them.
+   - Logic: Check if the pair consists of one Primary (FDI 50-85) and one Permanent.
+   - Condition: If (Mixed Pair == True) AND (Distance <= 0.3)
+   - Result: Force [:IS_ADJACENT_TO].
+   - Reasoning: We treat mixed pairs as connected unless the gap is extremely large.
+
+   Rule C: Midline Crossing (The "Central Incisor" Rule)
+   - Context: Moving from Quadrant 1 to 2, or 4 to 3.
+   - Logic: Check if Quadrant(Current) != Quadrant(Next).
+   - Condition: 
+     * IF (Current.FDI ends with 1) AND (Next.FDI ends with 1) -> [:IS_ADJACENT_TO]
+       (e.g., 11 connects to 21, 41 connects to 31).
+     * ELSE -> [:HAS_GAP_WITH]
+       (e.g., 42 connecting to 32 implies 41 and 31 are missing).
+
+   Rule D: Standard Gap Detection
+   - Context: Normal logic within the same quadrant.
+   - Logic: 
+     * FDI Jump: abs(FDI_1 - FDI_2) > 1 (e.g., 45 to 47 means 46 is missing).
+     * Physical Gap: Euclidean Distance >= 0.15 (Configurable threshold).
+   - Condition: If (FDI Jump) OR (Physical Gap)
+   - Result: [:HAS_GAP_WITH] property {is_gap: true}.
+   - Else: [:IS_ADJACENT_TO].
+
+3. Vertical Connection Logic (Opposing Teeth)
+   - Logic: Compares Upper Jaw nodes vs. Lower Jaw nodes.
+   - Condition: If nodes align closely in X-axis (dx < 0.05) and are within 
+     reasonable Y-distance (dy < 0.45).
+   - Result: [:IS_OPPOSING] (Blue Edge).
+
+-----------------------------------------------------------------------------
+PART 2: NEO4J GRAPH SCHEMA
+-----------------------------------------------------------------------------
+The database is designed to support Retrieval-Augmented Generation (RAG) 
+and statistical analysis.
+
+[Graph Structure Overview]
+(Case) --[HAS]--> (Tooth Instance) --[IS_A]--> (Tooth Class)
+                       |
+                   [RELATIONSHIP]
+                       |
+                (Tooth Instance)
+
+1. Nodes (Labels & Properties)
+
+   A. Label: :Case
+      - Description: Represents a single radiograph image.
+      - Properties:
+        * id: string (e.g., "patient_A.jpg")
+        * radiograph_type: string (e.g., "Panoramic Radiograph")
+        * dataset_source: string (e.g., "img_ann")
+
+   B. Label: :Tooth
+      - Description: An actual detected object in the image (Instance).
+      - ID Format: "{CaseID}_{InternalIndex}" (e.g., "patient_A.jpg_tooth_0")
+      - Properties:
+        * fdi: integer (The dental notation number, e.g., 11, 48)
+        * jaw: string ("UPPER" or "LOWER")
+        * pos_x: float (Normalized centroid X)
+        * pos_y: float (Normalized centroid Y)
+        * area: float (Polygon area)
+
+   C. Label: :ToothClass
+      - Description: The abstract concept of a tooth number (Standard/Template).
+      - ID Format: "{FDI}" (e.g., "11", "48")
+      - Properties:
+        * fdi: integer
+      - Usage: Used for aggregating statistics (e.g., "What is the avg width of tooth 11 across all cases?").
+
+2. Relationships (Edges)
+
+   A. Type: [:HAS]
+      - Direction: (:Case) -> (:Tooth)
+      - Meaning: The image contains this tooth detection.
+
+   B. Type: [:IS_A]
+      - Direction: (:Tooth) -> (:ToothClass)
+      - Meaning: Classification link. "This object is an instance of Tooth 11".
+
+   C. Type: [:IS_ADJACENT_TO]
+      - Direction: (:Tooth) <-> (:Tooth) (Undirected concept, stored directed)
+      - Meaning: Teeth are physically touching or in normal sequence.
+      - Properties:
+        * dist: float (Euclidean distance)
+        * angle: float (Angle between centroids)
+
+   D. Type: [:HAS_GAP_WITH]
+      - Direction: (:Tooth) <-> (:Tooth)
+      - Meaning: There is a missing tooth or diastema between these nodes.
+      - Properties:
+        * dist: float
+        * angle: float
+        * is_gap: boolean (Always true for this type)
+
+   E. Type: [:IS_OPPOSING]
+      - Direction: (:Tooth) <-> (:Tooth)
+      - Meaning: Upper tooth occludes with Lower tooth.
+      - Properties:
+        * dist: float (Horizontal alignment distance)
+
+=============================================================================
+END OF DOCUMENTATION
+=============================================================================

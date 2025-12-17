@@ -1,11 +1,15 @@
 {
     "case_info": {
         "id": "5.jpg",
-        "type": "Case"
+        "type": "Case",
+        "properties": {
+            "radiograph_type": "Panoramic Radiograph",
+            "dataset_source": "img_ann"
+        }
     },
     "nodes": [
         {
-            "id": "5.jpg_31",
+            "id": "5.jpg_tooth_0",
             "labels": [
                 "Tooth"
             ],
@@ -27,7 +31,7 @@
             }
         },
         {
-            "id": "5.jpg_41",
+            "id": "5.jpg_tooth_1",
             "labels": [
                 "Tooth"
             ],
@@ -49,7 +53,7 @@
             }
         },
         {
-            "id": "5.jpg_42",
+            "id": "5.jpg_tooth_2",
             "labels": [
                 "Tooth"
             ],
@@ -71,7 +75,7 @@
             }
         },
         {
-            "id": "5.jpg_43",
+            "id": "5.jpg_tooth_3",
             "labels": [
                 "Tooth"
             ],
@@ -93,7 +97,7 @@
             }
         },
         {
-            "id": "5.jpg_44",
+            "id": "5.jpg_tooth_4",
             "labels": [
                 "Tooth"
             ],
@@ -115,7 +119,7 @@
             }
         },
         {
-            "id": "5.jpg_45",
+            "id": "5.jpg_tooth_5",
             "labels": [
                 "Tooth"
             ],
@@ -137,7 +141,7 @@
             }
         },
         {
-            "id": "5.jpg_32",
+            "id": "5.jpg_tooth_6",
             "labels": [
                 "Tooth"
             ],
@@ -159,7 +163,7 @@
             }
         },
         {
-            "id": "5.jpg_33",
+            "id": "5.jpg_tooth_7",
             "labels": [
                 "Tooth"
             ],
@@ -181,7 +185,7 @@
             }
         },
         {
-            "id": "5.jpg_34",
+            "id": "5.jpg_tooth_8",
             "labels": [
                 "Tooth"
             ],
@@ -203,7 +207,7 @@
             }
         },
         {
-            "id": "5.jpg_38",
+            "id": "5.jpg_tooth_9",
             "labels": [
                 "Tooth"
             ],
@@ -225,7 +229,7 @@
             }
         },
         {
-            "id": "5.jpg_27",
+            "id": "5.jpg_tooth_10",
             "labels": [
                 "Tooth"
             ],
@@ -247,7 +251,7 @@
             }
         },
         {
-            "id": "5.jpg_26",
+            "id": "5.jpg_tooth_11",
             "labels": [
                 "Tooth"
             ],
@@ -269,7 +273,7 @@
             }
         },
         {
-            "id": "5.jpg_24",
+            "id": "5.jpg_tooth_12",
             "labels": [
                 "Tooth"
             ],
@@ -291,7 +295,7 @@
             }
         },
         {
-            "id": "5.jpg_23",
+            "id": "5.jpg_tooth_13",
             "labels": [
                 "Tooth"
             ],
@@ -313,7 +317,7 @@
             }
         },
         {
-            "id": "5.jpg_13",
+            "id": "5.jpg_tooth_14",
             "labels": [
                 "Tooth"
             ],
@@ -335,7 +339,7 @@
             }
         },
         {
-            "id": "5.jpg_16",
+            "id": "5.jpg_tooth_15",
             "labels": [
                 "Tooth"
             ],
@@ -357,7 +361,7 @@
             }
         },
         {
-            "id": "5.jpg_17",
+            "id": "5.jpg_tooth_16",
             "labels": [
                 "Tooth"
             ],
@@ -382,211 +386,211 @@
     "relationships": [
         {
             "start": "5.jpg",
-            "end": "5.jpg_31",
+            "end": "5.jpg_tooth_0",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_31",
+            "start": "5.jpg_tooth_0",
             "end": "31",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_41",
+            "end": "5.jpg_tooth_1",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_41",
+            "start": "5.jpg_tooth_1",
             "end": "41",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_42",
+            "end": "5.jpg_tooth_2",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_42",
+            "start": "5.jpg_tooth_2",
             "end": "42",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_43",
+            "end": "5.jpg_tooth_3",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_43",
+            "start": "5.jpg_tooth_3",
             "end": "43",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_44",
+            "end": "5.jpg_tooth_4",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_44",
+            "start": "5.jpg_tooth_4",
             "end": "44",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_45",
+            "end": "5.jpg_tooth_5",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_45",
+            "start": "5.jpg_tooth_5",
             "end": "45",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_32",
+            "end": "5.jpg_tooth_6",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_32",
+            "start": "5.jpg_tooth_6",
             "end": "32",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_33",
+            "end": "5.jpg_tooth_7",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_33",
+            "start": "5.jpg_tooth_7",
             "end": "33",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_34",
+            "end": "5.jpg_tooth_8",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_34",
+            "start": "5.jpg_tooth_8",
             "end": "34",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_38",
+            "end": "5.jpg_tooth_9",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_38",
+            "start": "5.jpg_tooth_9",
             "end": "38",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_27",
+            "end": "5.jpg_tooth_10",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_27",
+            "start": "5.jpg_tooth_10",
             "end": "27",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_26",
+            "end": "5.jpg_tooth_11",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_26",
+            "start": "5.jpg_tooth_11",
             "end": "26",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_24",
+            "end": "5.jpg_tooth_12",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_24",
+            "start": "5.jpg_tooth_12",
             "end": "24",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_23",
+            "end": "5.jpg_tooth_13",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_23",
+            "start": "5.jpg_tooth_13",
             "end": "23",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_13",
+            "end": "5.jpg_tooth_14",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_13",
+            "start": "5.jpg_tooth_14",
             "end": "13",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_16",
+            "end": "5.jpg_tooth_15",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_16",
+            "start": "5.jpg_tooth_15",
             "end": "16",
             "type": "IS_A",
             "properties": {}
         },
         {
             "start": "5.jpg",
-            "end": "5.jpg_17",
+            "end": "5.jpg_tooth_16",
             "type": "HAS",
             "properties": {}
         },
         {
-            "start": "5.jpg_17",
+            "start": "5.jpg_tooth_16",
             "end": "17",
             "type": "IS_A",
             "properties": {}
         },
         {
-            "start": "5.jpg_31",
-            "end": "5.jpg_41",
+            "start": "5.jpg_tooth_0",
+            "end": "5.jpg_tooth_1",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.018215952595697072,
@@ -595,8 +599,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_31",
-            "end": "5.jpg_32",
+            "start": "5.jpg_tooth_0",
+            "end": "5.jpg_tooth_6",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.02329435205828972,
@@ -605,8 +609,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_41",
-            "end": "5.jpg_42",
+            "start": "5.jpg_tooth_1",
+            "end": "5.jpg_tooth_2",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.020083895701254892,
@@ -615,8 +619,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_42",
-            "end": "5.jpg_43",
+            "start": "5.jpg_tooth_2",
+            "end": "5.jpg_tooth_3",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.031146316670801668,
@@ -625,8 +629,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_42",
-            "end": "5.jpg_13",
+            "start": "5.jpg_tooth_2",
+            "end": "5.jpg_tooth_14",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.040888426666666644
@@ -634,8 +638,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_43",
-            "end": "5.jpg_44",
+            "start": "5.jpg_tooth_3",
+            "end": "5.jpg_tooth_4",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.03119042899917278,
@@ -644,8 +648,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_43",
-            "end": "5.jpg_13",
+            "start": "5.jpg_tooth_3",
+            "end": "5.jpg_tooth_14",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.01632811282051283
@@ -653,8 +657,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_44",
-            "end": "5.jpg_45",
+            "start": "5.jpg_tooth_4",
+            "end": "5.jpg_tooth_5",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.027476398040245747,
@@ -663,8 +667,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_44",
-            "end": "5.jpg_13",
+            "start": "5.jpg_tooth_4",
+            "end": "5.jpg_tooth_14",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.011729918518518512
@@ -672,8 +676,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_45",
-            "end": "5.jpg_13",
+            "start": "5.jpg_tooth_5",
+            "end": "5.jpg_tooth_14",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.03860849999999999
@@ -681,8 +685,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_32",
-            "end": "5.jpg_33",
+            "start": "5.jpg_tooth_6",
+            "end": "5.jpg_tooth_7",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.03547888781371364,
@@ -691,8 +695,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_33",
-            "end": "5.jpg_34",
+            "start": "5.jpg_tooth_7",
+            "end": "5.jpg_tooth_8",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.029676459983901275,
@@ -701,8 +705,8 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_33",
-            "end": "5.jpg_23",
+            "start": "5.jpg_tooth_7",
+            "end": "5.jpg_tooth_13",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.027797115618661272
@@ -710,18 +714,19 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_34",
-            "end": "5.jpg_38",
+            "start": "5.jpg_tooth_8",
+            "end": "5.jpg_tooth_9",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.19131097478978842,
-                "angle": -28.6069082712356
+                "angle": -28.6069082712356,
+                "is_gap": true
             },
             "original_relation_tag": "HAS_GAP_WITH"
         },
         {
-            "start": "5.jpg_34",
-            "end": "5.jpg_24",
+            "start": "5.jpg_tooth_8",
+            "end": "5.jpg_tooth_12",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.022801970085470025
@@ -729,8 +734,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_34",
-            "end": "5.jpg_23",
+            "start": "5.jpg_tooth_8",
+            "end": "5.jpg_tooth_13",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.0007447782805430903
@@ -738,8 +743,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_38",
-            "end": "5.jpg_27",
+            "start": "5.jpg_tooth_9",
+            "end": "5.jpg_tooth_10",
             "type": "OPPOSING",
             "properties": {
                 "dist": 0.028230329192546533
@@ -747,8 +752,8 @@
             "original_relation_tag": "IS_OPPOSING"
         },
         {
-            "start": "5.jpg_27",
-            "end": "5.jpg_26",
+            "start": "5.jpg_tooth_10",
+            "end": "5.jpg_tooth_11",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.05067412848447389,
@@ -757,18 +762,19 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_26",
-            "end": "5.jpg_24",
+            "start": "5.jpg_tooth_11",
+            "end": "5.jpg_tooth_12",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.07458176022695842,
-                "angle": -8.09061103492769
+                "angle": -8.09061103492769,
+                "is_gap": true
             },
-            "original_relation_tag": "IS_ADJACENT_TO"
+            "original_relation_tag": "HAS_GAP_WITH"
         },
         {
-            "start": "5.jpg_24",
-            "end": "5.jpg_23",
+            "start": "5.jpg_tooth_12",
+            "end": "5.jpg_tooth_13",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.026269102286164664,
@@ -777,28 +783,30 @@
             "original_relation_tag": "IS_ADJACENT_TO"
         },
         {
-            "start": "5.jpg_23",
-            "end": "5.jpg_13",
+            "start": "5.jpg_tooth_13",
+            "end": "5.jpg_tooth_14",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.1537144326234079,
-                "angle": 9.884215504327932
+                "angle": 9.884215504327932,
+                "is_gap": true
             },
             "original_relation_tag": "HAS_GAP_WITH"
         },
         {
-            "start": "5.jpg_13",
-            "end": "5.jpg_16",
+            "start": "5.jpg_tooth_14",
+            "end": "5.jpg_tooth_15",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.09284696223796468,
-                "angle": -7.41302877091676
+                "angle": -7.41302877091676,
+                "is_gap": true
             },
-            "original_relation_tag": "IS_ADJACENT_TO"
+            "original_relation_tag": "HAS_GAP_WITH"
         },
         {
-            "start": "5.jpg_16",
-            "end": "5.jpg_17",
+            "start": "5.jpg_tooth_15",
+            "end": "5.jpg_tooth_16",
             "type": "NEXT_TO",
             "properties": {
                 "dist": 0.03986309959003707,
