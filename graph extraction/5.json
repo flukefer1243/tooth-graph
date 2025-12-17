@@ -1,0 +1,810 @@
+{
+    "case_info": {
+        "id": "5.jpg",
+        "type": "Case"
+    },
+    "nodes": [
+        {
+            "id": "5.jpg_31",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "31",
+                "area": 0.00191979709649992,
+                "jaw": "LOWER",
+                "pos_x": 0.4895885000000001,
+                "pos_y": 0.6761230999999999
+            }
+        },
+        {
+            "id": "31",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "31"
+            }
+        },
+        {
+            "id": "5.jpg_41",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "41",
+                "area": 0.0023591448409998605,
+                "jaw": "LOWER",
+                "pos_x": 0.47137845833333336,
+                "pos_y": 0.6756590833333332
+            }
+        },
+        {
+            "id": "41",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "41"
+            }
+        },
+        {
+            "id": "5.jpg_42",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "42",
+                "area": 0.0025775445749998127,
+                "jaw": "LOWER",
+                "pos_x": 0.45140615999999995,
+                "pos_y": 0.6777733600000001
+            }
+        },
+        {
+            "id": "42",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "42"
+            }
+        },
+        {
+            "id": "5.jpg_43",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "43",
+                "area": 0.004786134188500046,
+                "jaw": "LOWER",
+                "pos_x": 0.42684584615384613,
+                "pos_y": 0.6969275769230769
+            }
+        },
+        {
+            "id": "43",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "43"
+            }
+        },
+        {
+            "id": "5.jpg_44",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "44",
+                "area": 0.0033909116380002047,
+                "jaw": "LOWER",
+                "pos_x": 0.3987878148148148,
+                "pos_y": 0.6833044444444444
+            }
+        },
+        {
+            "id": "44",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "44"
+            }
+        },
+        {
+            "id": "5.jpg_45",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "45",
+                "area": 0.004513590166999926,
+                "jaw": "LOWER",
+                "pos_x": 0.3719092333333333,
+                "pos_y": 0.6776040666666667
+            }
+        },
+        {
+            "id": "45",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "45"
+            }
+        },
+        {
+            "id": "5.jpg_32",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "32",
+                "area": 0.002595917045500329,
+                "jaw": "LOWER",
+                "pos_x": 0.5105953333333333,
+                "pos_y": 0.6660563333333334
+            }
+        },
+        {
+            "id": "32",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "32"
+            }
+        },
+        {
+            "id": "5.jpg_33",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "33",
+                "area": 0.0038708209910005564,
+                "jaw": "LOWER",
+                "pos_x": 0.5341534137931033,
+                "pos_y": 0.6925849655172414
+            }
+        },
+        {
+            "id": "33",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "33"
+            }
+        },
+        {
+            "id": "5.jpg_34",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "34",
+                "area": 0.0032882908799996002,
+                "jaw": "LOWER",
+                "pos_x": 0.5626953076923077,
+                "pos_y": 0.6844576923076923
+            }
+        },
+        {
+            "id": "34",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "34"
+            }
+        },
+        {
+            "id": "5.jpg_38",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "38",
+                "area": 0.005241439747499577,
+                "jaw": "LOWER",
+                "pos_x": 0.7306520434782608,
+                "pos_y": 0.5928584347826087
+            }
+        },
+        {
+            "id": "38",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "38"
+            }
+        },
+        {
+            "id": "5.jpg_27",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "27",
+                "area": 0.005878974428499717,
+                "jaw": "UPPER",
+                "pos_x": 0.7024217142857143,
+                "pos_y": 0.480678
+            }
+        },
+        {
+            "id": "27",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "27"
+            }
+        },
+        {
+            "id": "5.jpg_26",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "26",
+                "area": 0.005899798142500412,
+                "jaw": "UPPER",
+                "pos_x": 0.6593367058823529,
+                "pos_y": 0.5073528823529411
+            }
+        },
+        {
+            "id": "26",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "26"
+            }
+        },
+        {
+            "id": "5.jpg_24",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "24",
+                "area": 0.004507496061500138,
+                "jaw": "UPPER",
+                "pos_x": 0.5854972777777777,
+                "pos_y": 0.5178494444444444
+            }
+        },
+        {
+            "id": "24",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "24"
+            }
+        },
+        {
+            "id": "5.jpg_23",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "23",
+                "area": 0.004502392260000043,
+                "jaw": "UPPER",
+                "pos_x": 0.5619505294117646,
+                "pos_y": 0.506204
+            }
+        },
+        {
+            "id": "23",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "23"
+            }
+        },
+        {
+            "id": "5.jpg_13",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "13",
+                "area": 0.003638812343500275,
+                "jaw": "UPPER",
+                "pos_x": 0.4105177333333333,
+                "pos_y": 0.47981773333333333
+            }
+        },
+        {
+            "id": "13",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "13"
+            }
+        },
+        {
+            "id": "5.jpg_16",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "16",
+                "area": 0.007240718340500107,
+                "jaw": "UPPER",
+                "pos_x": 0.31844680000000003,
+                "pos_y": 0.4917969499999999
+            }
+        },
+        {
+            "id": "16",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "16"
+            }
+        },
+        {
+            "id": "5.jpg_17",
+            "labels": [
+                "Tooth"
+            ],
+            "properties": {
+                "fdi": "17",
+                "area": 0.005327499656999968,
+                "jaw": "UPPER",
+                "pos_x": 0.27911177777777785,
+                "pos_y": 0.49826399999999993
+            }
+        },
+        {
+            "id": "17",
+            "labels": [
+                "ToothClass"
+            ],
+            "properties": {
+                "fdi": "17"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_31",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_31",
+            "end": "31",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_41",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_41",
+            "end": "41",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_42",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_42",
+            "end": "42",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_43",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_43",
+            "end": "43",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_44",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_44",
+            "end": "44",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_45",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_45",
+            "end": "45",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_32",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_32",
+            "end": "32",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_33",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_33",
+            "end": "33",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_34",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_34",
+            "end": "34",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_38",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_38",
+            "end": "38",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_27",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_27",
+            "end": "27",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_26",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_26",
+            "end": "26",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_24",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_24",
+            "end": "24",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_23",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_23",
+            "end": "23",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_13",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_13",
+            "end": "13",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_16",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_16",
+            "end": "16",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg",
+            "end": "5.jpg_17",
+            "type": "HAS",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_17",
+            "end": "17",
+            "type": "IS_A",
+            "properties": {}
+        },
+        {
+            "start": "5.jpg_31",
+            "end": "5.jpg_41",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.018215952595697072,
+                "angle": 1.4596586440271269
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_31",
+            "end": "5.jpg_32",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.02329435205828972,
+                "angle": -25.604388752355455
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_41",
+            "end": "5.jpg_42",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.020083895701254892,
+                "angle": -6.042851630364669
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_42",
+            "end": "5.jpg_43",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.031146316670801668,
+                "angle": -37.95012902858065
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_42",
+            "end": "5.jpg_13",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.040888426666666644
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_43",
+            "end": "5.jpg_44",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.03119042899917278,
+                "angle": 25.89815665521079
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_43",
+            "end": "5.jpg_13",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.01632811282051283
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_44",
+            "end": "5.jpg_45",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.027476398040245747,
+                "angle": 11.97380798288003
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_44",
+            "end": "5.jpg_13",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.011729918518518512
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_45",
+            "end": "5.jpg_13",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.03860849999999999
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_32",
+            "end": "5.jpg_33",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.03547888781371364,
+                "angle": 48.39413250390093
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_33",
+            "end": "5.jpg_34",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.029676459983901275,
+                "angle": -15.894245464097843
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_33",
+            "end": "5.jpg_23",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.027797115618661272
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_34",
+            "end": "5.jpg_38",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.19131097478978842,
+                "angle": -28.6069082712356
+            },
+            "original_relation_tag": "HAS_GAP_WITH"
+        },
+        {
+            "start": "5.jpg_34",
+            "end": "5.jpg_24",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.022801970085470025
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_34",
+            "end": "5.jpg_23",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.0007447782805430903
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_38",
+            "end": "5.jpg_27",
+            "type": "OPPOSING",
+            "properties": {
+                "dist": 0.028230329192546533
+            },
+            "original_relation_tag": "IS_OPPOSING"
+        },
+        {
+            "start": "5.jpg_27",
+            "end": "5.jpg_26",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.05067412848447389,
+                "angle": -31.76256654911034
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_26",
+            "end": "5.jpg_24",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.07458176022695842,
+                "angle": -8.09061103492769
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_24",
+            "end": "5.jpg_23",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.026269102286164664,
+                "angle": 26.315479509981035
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_23",
+            "end": "5.jpg_13",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.1537144326234079,
+                "angle": 9.884215504327932
+            },
+            "original_relation_tag": "HAS_GAP_WITH"
+        },
+        {
+            "start": "5.jpg_13",
+            "end": "5.jpg_16",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.09284696223796468,
+                "angle": -7.41302877091676
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        },
+        {
+            "start": "5.jpg_16",
+            "end": "5.jpg_17",
+            "type": "NEXT_TO",
+            "properties": {
+                "dist": 0.03986309959003707,
+                "angle": -9.336443618306006
+            },
+            "original_relation_tag": "IS_ADJACENT_TO"
+        }
+    ]
+}
