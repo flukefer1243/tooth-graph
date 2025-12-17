@@ -5,3 +5,4 @@ neo4j/plugins
 .DS_Store
 
 graph extraction/env
+RAG-KG/env
