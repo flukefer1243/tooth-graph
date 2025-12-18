@@ -6,3 +6,9 @@ neo4j/plugins
 
 graph extraction/env
 RAG-KG/env
+
+SVO parsing/env
+SVO parsing/data
+SVO parsing/logs
+SVO parsing/import
+SVO parsing/plugins
