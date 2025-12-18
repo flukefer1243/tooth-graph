@@ -1,7 +1,6 @@
-neo4j/data
-neo4j/logs
-neo4j/import
-neo4j/plugins
+neo4j/neo4j_1
+neo4j/neo4j_2
+neo4j/neo4j_3
 .DS_Store
 
 graph extraction/env

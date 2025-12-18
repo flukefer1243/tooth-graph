@@ -1,452 +1,242 @@
 [
     {
-        "head": "Many adults in the U.S.",
-        "relation": "HAVE",
-        "tail": "some form of the disease",
-        "meta": {
-            "source": "text",
-            "page": 2,
-            "context": "Many adults in the U.S. currently have some form of the disease."
-        }
-    },
-    {
-        "head": "Periodontal diseases",
-        "relation": "RANGE",
-        "tail": "to serious disease that results in major damage to the soft tissue and bone that support the teeth",
-        "meta": {
-            "source": "text",
-            "page": 2,
-            "context": "Periodontal diseases range from simple gum inflammation to serious disease that results in major damage to the soft tissue and bone that support the teeth."
-        }
-    },
-    {
-        "head": "teeth",
-        "relation": "LOSE",
-        "tail": "In the worst cases",
-        "meta": {
-            "source": "text",
-            "page": 2,
-            "context": "In the worst cases, teeth are lost."
-        }
-    },
-    {
-        "head": "These bacteria",
-        "relation": "FORM",
-        "tail": "a sticky colorless “plaque” on teeth",
-        "meta": {
-            "source": "text",
-            "page": 3,
-            "context": "These bacteria, along with mucus and other particles, constantly form a sticky, colorless “plaque” on teeth."
-        }
-    },
-    {
-        "head": "Only a professional cleaning by a dentist or dental hygienist",
-        "relation": "REMOVE",
-        "tail": "tartar",
-        "meta": {
-            "source": "text",
-            "page": 3,
-            "context": "Only a professional cleaning by a dentist or dental hygienist can remove tartar."
-        }
-    },
-    {
         "head": "bacteria",
-        "relation": "CAUSE",
-        "tail": "inflammation “inflammation around the of the gums that is called tooth”",
+        "relation": "COLONIZE",
+        "tail": "in the form of a thin sticky colorless film dental plaque",
         "meta": {
             "source": "text",
-            "page": 4,
-            "context": "The “periodontitis” (which means bacteria cause inflammation “inflammation around the of the gums that is called tooth”)."
+            "page": 1,
+            "context": "This occurs when bacteria colonize on the tooth surface in the form of a thin, sticky, colorless film (dental plaque)."
         }
     },
     {
-        "head": "the gums",
-        "relation": "BECOME",
-        "tail": "form spaces called “pockets” swollen and can bleed easily",
+        "head": "the bacteria in the dental plaque",
+        "relation": "UTILIZE",
+        "tail": "from the food",
         "meta": {
             "source": "text",
-            "page": 4,
-            "context": "In gingivitis, pull away from the teeth and the gums become red, form spaces (called “pockets”) swollen and can bleed easily."
+            "page": 1,
+            "context": "Soon after the intake of food, the bacteria in the dental plaque utilize the sugar from the food, to produce acid which dissolves the tooth surface."
         }
     },
     {
-        "head": "the plaque",
-        "relation": "REVERSE",
-        "tail": "with daily spreads",
-        "meta": {
-            "source": "text",
-            "page": 4,
-            "context": "The Gingivitis is a mild form of body’s immune system fights gum disease that can usually the bacteria as the plaque be reversed with daily spreads and grows below the brushing and flossing, and gum l"
-        }
-    },
-    {
-        "head": "gum disease",
-        "relation": "INCLUDE",
-        "tail": "any loss of bone and tissue that hold teeth in place",
-        "meta": {
-            "source": "text",
-            "page": 4,
-            "context": "This form of infection start to break down gum disease does not include the bone and connective tissue any loss of bone and tissue that hold teeth in place."
-        }
-    },
-    {
-        "head": "The teeth",
-        "relation": "BECOME",
-        "tail": "loose",
-        "meta": {
-            "source": "text",
-            "page": 4,
-            "context": "The teeth may eventually become loose and have to be removed."
-        }
-    },
-    {
-        "head": "smoking",
-        "relation": "LOWER",
-        "tail": "the chances for successful treatment",
-        "meta": {
-            "source": "text",
-            "page": 5,
-            "context": "Additionally, smoking can lower the chances for successful treatment."
-        }
-    },
-    {
-        "head": "Diseases such as AIDS and its treatments",
-        "relation": "AFFECT",
-        "tail": "the health of gums",
-        "meta": {
-            "source": "text",
-            "page": 5,
-            "context": "Diseases such as AIDS and its treatments can negatively affect the health of gums, as can treatments for cancer."
-        }
-    },
-    {
-        "head": "some medicines",
-        "relation": "CAUSE",
-        "tail": "abnormal overgrowth of the gum tissue",
-        "meta": {
-            "source": "text",
-            "page": 5,
-            "context": "And some medicines can cause abnormal overgrowth of the gum tissue; this can make it difficult to keep teeth and gums clean."
-        }
-    },
-    {
-        "head": "People",
+        "head": "The sectional view of a healthy tooth",
         "relation": "SHOW",
-        "tail": "Painful chewing of gum disease",
+        "tail": "in Figure 1.1",
         "meta": {
             "source": "text",
-            "page": 6,
-            "context": "People usually don’t show signs Painful chewing of gum disease until they are in Loose teeth their 30s or 40s."
+            "page": 1,
+            "context": "The sectional view of a healthy tooth is shown in Figure 1.1."
         }
     },
     {
-        "head": "teenagers",
-        "relation": "APPEAR",
-        "tail": "teeth",
+        "head": "Tooth decay",
+        "relation": "DEVELOP",
+        "tail": "in any part of a tooth",
         "meta": {
             "source": "text",
-            "page": 6,
-            "context": "Although teenagers longer appearing teeth rarely develop periodontitis, they can develop gingivitis, the Any of these symptoms may milder form of gum disease."
+            "page": 1,
+            "context": "Tooth decay can develop in any part of a tooth."
         }
     },
     {
-        "head": "if I conditions or risk factors",
-        "relation": "HAVE",
-        "tail": "gum disease",
+        "head": "Radiographic examination",
+        "relation": "PICK",
+        "tail": "signs of decay",
         "meta": {
             "source": "text",
-            "page": 6,
-            "context": "Ask about your medical history to identify underlying How do I know if I conditions or risk factors have gum disease?"
+            "page": 1,
+            "context": "Radiographic examination also picks up signs of decay especially when it spreads (Figure 1.2) beneath the outer surface of the tooth (enamel)."
         }
     },
     {
-        "head": "Symptoms of gum",
-        "relation": "CONTRIBUTE",
-        "tail": "to gum disease",
+        "head": "the affected tooth",
+        "relation": "BECOME",
+        "tail": "sensitive to temperature changes",
         "meta": {
             "source": "text",
-            "page": 6,
-            "context": "(such as smoking) that may Symptoms of gum contribute to gum disease."
+            "page": 1,
+            "context": "Then, the affected tooth may become sensitive to temperature changes."
         }
     },
     {
-        "head": "The dentist or hygienist",
-        "relation": "TAKE",
-        "tail": "an xray",
+        "head": "the pulp",
+        "relation": "BECOME",
+        "tail": "inflamed causing pain and discomfort",
         "meta": {
             "source": "text",
-            "page": 7,
-            "context": "The dentist or hygienist may also: Take an xray to see whether there is any bone loss."
+            "page": 1,
+            "context": "At some stage, the pulp will become inflamed causing pain and discomfort."
         }
     },
     {
-        "head": "the patient",
-        "relation": "KEEP",
-        "tail": "at home",
+        "head": "the tooth",
+        "relation": "BECOME",
+        "tail": "nonvital",
         "meta": {
             "source": "text",
-            "page": 7,
-            "context": "the patient keep up good daily care at home."
+            "page": 1,
+            "context": "When the pulp is irreversibly damaged, the tooth becomes nonvital."
         }
     },
     {
-        "head": "The dentist periodontist or dental hygienist",
-        "relation": "REMOVE",
-        "tail": "through a deepcleaning method called scaling and root planing",
+        "head": "the infection",
+        "relation": "SPREAD",
+        "tail": "through the root ends apex",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "The dentist, periodontist, or dental hygienist removes the plaque through a deepcleaning method called scaling and root planing."
+            "page": 1,
+            "context": "Infection can easily set in and the infection can spread through the root ends (apex)."
         }
     },
     {
-        "head": "Root planing",
-        "relation": "RID",
-        "tail": "of rough spots on the tooth root where the germs gather",
+        "head": "The destruction of tooth structure",
+        "relation": "WORSEN",
+        "tail": "without proper intervention",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "Root planing gets rid of rough spots on the tooth root where the germs gather, and helps remove bacteria that contribute to the disease."
+            "page": 1,
+            "context": "The destruction of tooth structure will worsen without proper intervention."
         }
     },
     {
-        "head": "a laser",
-        "relation": "USE",
-        "tail": "In some cases",
+        "head": "The removal extraction of the tooth",
+        "relation": "BECOME",
+        "tail": "the only way out which results in tooth loss",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "In some cases a laser may be used to remove plaque and tartar."
+            "page": 1,
+            "context": "The removal (extraction) of the tooth may become the only way out which results in tooth loss."
         }
     },
     {
-        "head": "This procedure",
-        "relation": "RESULT",
-        "tail": "in less bleeding swelling and discomfort",
+        "head": "dental plaque",
+        "relation": "ACCUMULATE",
+        "tail": "along gum margins",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "This procedure can result in less bleeding, swelling, and discomfort compared to traditional deep cleaning methods."
+            "page": 2,
+            "context": "If teeth are not effectively cleaned, dental plaque will accumulate on the tooth surfaces and crevices along gum margins."
         }
     },
     {
-        "head": "Medications Medications",
-        "relation": "USE",
-        "tail": "with treatment that includes scaling and root planning",
+        "head": "accumulated dental plaque",
+        "relation": "CALCIFY",
+        "tail": "into a hardened deposit called calculus",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "Medications Medications may be used with treatment that includes scaling and root planning, but they cannot always take the place of surgery."
+            "page": 2,
+            "context": "Furthermore, accumulated dental plaque may calcify into a hardened deposit called calculus."
         }
     },
     {
-        "head": "the dentist or periodontist",
-        "relation": "SUGGEST",
-        "tail": "surgical treatment",
+        "head": "The rough surfaces of the calculus",
+        "relation": "PROMOTE",
+        "tail": "plaque accumulation",
         "meta": {
             "source": "text",
-            "page": 8,
-            "context": "Depending on how far the disease has progressed, the dentist or periodontist may still suggest surgical treatment."
+            "page": 2,
+            "context": "The rough surfaces of the calculus further promote plaque accumulation, thus hastening the progress of gum disease."
         }
     },
     {
-        "head": "the medicine",
-        "relation": "RELEASE",
-        "tail": "over time",
-        "meta": {
-            "source": "text",
-            "page": 10,
-            "context": "To control bacteria and reduce After root planing, it’s placed in the size of periodontal pockets the pockets where the medicine is slowly released over time."
-        }
-    },
-    {
-        "head": "The antibiotic",
-        "relation": "RELEASE",
-        "tail": "over a period of about seven days",
-        "meta": {
-            "source": "text",
-            "page": 10,
-            "context": "The antibiotic is released slowly over a period of about seven days."
-        }
-    },
-    {
-        "head": "The particles",
-        "relation": "RELEASE",
-        "tail": "over time",
-        "meta": {
-            "source": "text",
-            "page": 10,
-            "context": "The particles release minocycline slowly over time."
-        }
-    },
-    {
-        "head": "response — If not controlled It is used in combination with certain enzymes",
-        "relation": "BREAK",
-        "tail": "scaling and root planing",
-        "meta": {
-            "source": "text",
-            "page": 10,
-            "context": "response — If not controlled, It is used in combination with certain enzymes can break scaling and root planing."
-        }
-    },
-    {
-        "head": "down gum tissue For the short term treatment",
+        "head": "The bacteria in the dental plaque release toxins which irritate the gum tissue",
         "relation": "COME",
-        "tail": "as tablets or capsules of an acute or locally persistent",
+        "tail": "in contact with leading to gum inflammation",
         "meta": {
             "source": "text",
-            "page": 10,
-            "context": "down gum tissue For the short term treatment These come as tablets or capsules of an acute or locally persistent and are taken by mouth."
+            "page": 2,
+            "context": "The bacteria in the dental plaque release toxins which irritate the gum tissue it comes in contact with, leading to gum inflammation, a condition which is still reversible."
         }
     },
     {
-        "head": "A dentist or periodontist",
-        "relation": "PERFORM",
-        "tail": "flap surgery",
+        "head": "The total detachment of tooth support including both gum pocket and gum recession",
+        "relation": "REFER",
+        "tail": "as the loss of attachment LOA a condition which is now irreversible",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "A dentist or periodontist may perform flap surgery to remove tartar deposits in deep pockets or to reduce the periodontal pocket and make it easier for the patient, dentist, and hygienist to keep the "
+            "page": 2,
+            "context": "The total detachment of tooth support, including both gum pocket and gum recession, is referred to as the loss of attachment (LOA), a condition which is now irreversible."
         }
     },
     {
-        "head": "The gums",
-        "relation": "SUTURE",
-        "tail": "in place",
+        "head": "the affected person",
+        "relation": "CLEAN",
+        "tail": "the inside of the pocket",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "The gums are then sutured back in place so that the tissue fits snugly around the tooth again."
+            "page": 2,
+            "context": "Figure 1.3 Diagrammatic illustration of progression of gum disease gum pockets Gum pocket is significant because the affected person cannot clean the inside of the pocket, and can only be managed by p"
         }
     },
     {
-        "head": "the tissue",
-        "relation": "FIT",
-        "tail": "around the tooth",
+        "head": "Shallow pocket",
+        "relation": "REFER",
+        "tail": "to pocket depth measured from gum margin to the base of the gum sulcus of 4 to 5 mm",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "The gums are then sutured back in place so that the tissue fits snugly around the tooth again."
+            "page": 2,
+            "context": "Shallow pocket refers to pocket depth (measured from gum margin to the base of the gum sulcus) of 4 to 5 mm, and deep pocket refers to pocket depth of > 6 mm."
         }
     },
     {
-        "head": "the gums",
-        "relation": "HEAL",
-        "tail": "After surgery",
+        "head": "deep pocket",
+        "relation": "REFER",
+        "tail": "to pocket depth of > 6 mm",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "After surgery the gums will heal and fit more tightly around the tooth."
+            "page": 2,
+            "context": "Shallow pocket refers to pocket depth (measured from gum margin to the base of the gum sulcus) of 4 to 5 mm, and deep pocket refers to pocket depth of > 6 mm."
         }
     },
     {
-        "head": "your periodontist or dentist",
-        "relation": "SUGGEST",
-        "tail": "procedures to help regenerate any bone or gum tissue lost to periodontitis",
+        "head": "The loss of attachment in the form of recession",
+        "relation": "LEAD",
+        "tail": "to the exposure of root surface and sensitivity",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "In addition to flap surgery, your periodontist or dentist may suggest procedures to help regenerate any bone or gum tissue lost to periodontitis."
+            "page": 3,
+            "context": "The loss of attachment in the form of recession, leads to the exposure of root surface and sensitivity."
         }
     },
     {
-        "head": "natural or synthetic bone",
-        "relation": "PLACE",
-        "tail": "in the area of bone loss",
+        "head": "The affected person",
+        "relation": "NOTICE",
+        "tail": "because the gum recession and exposure of the root which make the tooth appear longer",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "Bone grafting, in which natural or synthetic bone is placed in the area of bone loss, can help promote bone growth."
+            "page": 3,
+            "context": "The affected person may soon notice an \"elongation\" of the tooth because of the gum recession and exposure of the root, which make the tooth appear longer but in fact is a manifestation that the tooth"
         }
     },
     {
-        "head": "a small piece of meshlike material",
-        "relation": "INSERT",
-        "tail": "between the bone and gum tissue",
+        "head": "Accumulation and maturation of dental plaque in gum pockets",
+        "relation": "LEAD",
+        "tail": "pus formation along the gum margin and abscess formation",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "In this procedure, a small piece of meshlike material is inserted between the bone and gum tissue."
+            "page": 3,
+            "context": "Accumulation and maturation of dental plaque in gum pockets may lead to more severe forms of inflammation, pus formation along the gum margin, and abscess formation."
         }
     },
     {
-        "head": "your body",
-        "relation": "REGROW",
-        "tail": "bone",
+        "head": "Persistent gum inflammation",
+        "relation": "LEAD",
+        "tail": "to the destruction of bone support of the affected tooth",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "Growth factors – proteins that can help your body naturally regrow bone – may also be used."
+            "page": 3,
+            "context": "Persistent gum inflammation will lead to the destruction of bone support of the affected tooth."
         }
     },
     {
-        "head": "your dentist or periodontist",
-        "relation": "SUGGEST",
-        "tail": "a soft tissue graft in which synthetic material or tissue taken from another area of your mouth is used to cover exposed tooth roots",
+        "head": "the supporting tissues",
+        "relation": "DESTROY",
+        "tail": "Without proper intervention",
         "meta": {
             "source": "text",
-            "page": 11,
-            "context": "In cases where gum tissue has been lost, your dentist or periodontist may suggest a soft tissue graft, in which synthetic material or tissue taken from another area of your mouth is used to cover expo"
-        }
-    },
-    {
-        "head": "synthetic material or tissue taken from another area of your mouth",
-        "relation": "USE",
-        "tail": "in which",
-        "meta": {
-            "source": "text",
-            "page": 11,
-            "context": "In cases where gum tissue has been lost, your dentist or periodontist may suggest a soft tissue graft, in which synthetic material or tissue taken from another area of your mouth is used to cover expo"
-        }
-    },
-    {
-        "head": "Treatment results",
-        "relation": "DEPEND",
-        "tail": "on many things including how far the disease has progressed how well the patient keeps up with oral care at home and certain risk factors such as smoking which may lower the chances of success",
-        "meta": {
-            "source": "text",
-            "page": 12,
-            "context": "Treatment results depend on many things, including how far the disease has progressed, how well the patient keeps up with oral care at home, and certain risk factors, such as smoking, which may lower "
-        }
-    },
-    {
-        "head": "the patient",
-        "relation": "KEEP",
-        "tail": "at home",
-        "meta": {
-            "source": "text",
-            "page": 12,
-            "context": "Treatment results depend on many things, including how far the disease has progressed, how well the patient keeps up with oral care at home, and certain risk factors, such as smoking, which may lower "
-        }
-    },
-    {
-        "head": "people with gum",
-        "relation": "CAUSE",
-        "tail": "both the gum disease disease",
-        "meta": {
-            "source": "text",
-            "page": 13,
-            "context": "In some studies, researchers have For example, something else may observed that people with gum be causing both the gum disease disease (when compared to people and the other condition, or it could wi"
-        }
-    },
-    {
-        "head": "gum disease",
-        "relation": "KEEP",
-        "tail": "other health",
-        "meta": {
-            "source": "text",
-            "page": 13,
-            "context": "But so far, gum disease can keep other health it has not been determined whether conditions from developing."
-        }
-    },
-    {
-        "head": "people",
-        "relation": "SAVE",
-        "tail": "your teeth",
-        "meta": {
-            "source": "text",
-            "page": 13,
-            "context": "that controlling gum disease can There may be other reasons people save your teeth – a very good with gum disease sometimes reason to take care of your teeth develop additional health problems."
+            "page": 3,
+            "context": "Without proper intervention, the supporting tissues may be completely destroyed and make the affected tooth very loose, and may even fall out easily."
         }
     }
 ]

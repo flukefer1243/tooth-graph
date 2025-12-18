@@ -5,10 +5,10 @@ import json
 from neo4j import GraphDatabase
 
 # --- 1. CONFIGURATION ---
-NEO4J_URI = "bolt://localhost:7687" # แก้เป็น URI ของคุณ
+NEO4J_URI = "bolt://localhost:7689" # แก้เป็น URI ของคุณ
 NEO4J_USER = "neo4j"                # แก้เป็น Username ของคุณ
-NEO4J_PASSWORD = "your_password"         # แก้เป็น Password ของคุณ
-PDF_FILENAME = "Periodontal-Gum-Disease.pdf" # ชื่อไฟล์ PDF ของคุณ
+NEO4J_PASSWORD = "12345678"         # แก้เป็น Password ของคุณ
+PDF_FILENAME = "ohse1.pdf" # ชื่อไฟล์ PDF ของคุณ
 
 print("⏳ Loading NLP Model...")
 try:
@@ -171,7 +171,7 @@ class Neo4jImporter:
         with self.driver.session() as session:
             count = 0
             for item in data_list:
-                # Sanitize Relation Name
+                # 1. Prepare the clean_rel variable
                 clean_rel = re.sub(r'[^A-Z0-9_]', '_', item['relation']).strip('_')
                 if not clean_rel: clean_rel = "RELATED_TO"
 
@@ -180,19 +180,24 @@ class Neo4jImporter:
                 page = meta.get('page', 0)
                 source = meta.get('source', 'unknown')
 
+                # 2. THE UPDATED QUERY
+                # Note the use of {{ }} for Cypher properties
+                # We use $action_rel as a placeholder for the variable
                 query = f"""
                 MERGE (h:Entity {{name: $head}})
                 MERGE (t:Entity {{name: $tail}})
-                MERGE (h)-[r:{clean_rel}]->(t)
+                MERGE (h)-[r:RELATED_TO {{action: $action_rel}}]->(t)
                 SET r.source = $source,
                     r.page = $page,
                     r.context = $context
                 """
                 
                 try:
+                    # 3. PASS THE VARIABLE HERE
                     session.run(query, 
                                 head=item['head'], 
                                 tail=item['tail'],
+                                action_rel=clean_rel,  # <--- Helper variable connects to $action_rel
                                 source=source,
                                 page=page,
                                 context=context)

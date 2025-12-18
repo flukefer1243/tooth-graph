@@ -22,7 +22,7 @@ print(f"จำนวน Chunks ทั้งหมด: {len(chunks)}\n")
 
 # --- 2. ตั้งค่าการเชื่อมต่อ (Setup) ---
 
-NEO4J_URI = "bolt://localhost:7687"
+NEO4J_URI = "bolt://localhost:7688"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "12345678"
 
